@@ -565,12 +565,74 @@ li {
 }
 
 /* ******BENEFITS********* */
+.benefits-list {
+  max-width: 320px;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.benefits-styles {
+  /* flex-direction: column; */
+  display: flex;
+  flex-wrap: wrap;
+  column-width: 288px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.benefits-items {
+  width: 288px;
+  height: 120px;
+}
+.benefits-icons {
+  display: none;
+}
+.benefits.list-title {
+  width: 288px;
+  height: 40px;
+  text-align: center;
+}
 
-/* **************TABLET***************** */
+/* ***OUR-TEAM*********** */
+.section-title {
+  width: 162px;
+  height: 40px;
+}
+.our-team-styles {
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  width: 320px;
+  height: 2232px;
+  gap: 24px;
+}
+.team-memeber {
+  width: 264px;
+  height: 260px;
+  column-gap: 72px;
+}
+.list-title {
+  width: 134px;
+  height: 24px;
+  text-align: center;
+}
+
+/* *********OUR-PORTFOLIO*********** */
+.portfolio-styles {
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+/* *******FOOTER********* */
+
+/* .footer-container {
+  display: block;
+} */
+
+/* ***************TABLET*************** */
 
 /* *******HEADER********* */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
@@ -593,36 +655,36 @@ li {
   }
   .mobile-menu-open-btn {
     display: none;
-  }
+  } */
 
-  /* *******HERO********** */
-  .hero {
+/* *******HERO********** */
+/* .hero {
     max-width: 768px;
-  }
-  /* ******BENEFITS******** */
-  .benefits-list {
+  } */
+/* ******BENEFITS******** */
+/* .benefits-list {
     max-width: 768px;
-  }
-  /* ********OUR-TEAM******** */
-  .our-team {
+  } */
+/* ********OUR-TEAM******** */
+/* .our-team {
     max-width: 768px;
-  }
-  /* *****PORTFOLIO********** */
+  } */
+/* *****PORTFOLIO********** */
 
-  .our-portfolio {
+/* .our-portfolio {
+    max-width: 768px;
+  } */
+/* *********FOOTER********* */
+/* .all-right {
     max-width: 768px;
   }
-  /* *********FOOTER********* */
-  .all-right {
-    max-width: 768px;
-  }
-}
+} */
 
 /* *******************DESK***************** */
 
 /* *****HEADER************* */
 /* changed-max-w-with-min-w****** */
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
   }
@@ -645,7 +707,7 @@ li {
   .address-contacts {
     font-size: 16px;
   }
-}
+} */
 
 /* modal-window */
 
