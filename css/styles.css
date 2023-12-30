@@ -763,8 +763,11 @@ li {
 
 /* *******HEADER********* */
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .container {
+    max-width: 768px;
+  }
+  .header-styles {
     max-width: 768px;
   }
   .logo {
@@ -786,31 +789,32 @@ li {
   }
   .mobile-menu-open-btn {
     display: none;
-  } */
+  }
 
-/* *******HERO********** */
-/* .hero {
-    max-width: 768px;
-  } */
-/* ******BENEFITS******** */
-/* .benefits-list {
-    max-width: 768px;
-  } */
-/* ********OUR-TEAM******** */
-/* .our-team {
-    max-width: 768px;
-  } */
-/* *****PORTFOLIO********** */
-
-/* .our-portfolio {
-    max-width: 768px;
-  } */
-/* *********FOOTER********* */
-/* .all-right {
+  /* *******HERO********** */
+  .hero {
     max-width: 768px;
   }
-} */
+  /* ******BENEFITS******** */
+  .benefits-list {
+    max-width: 768px;
+  }
 
+  /* ********OUR-TEAM******** */
+  .our-team {
+    max-width: 768px;
+    display: flex;
+  }
+  /* *****PORTFOLIO********** */
+
+  .our-portfolio {
+    max-width: 768px;
+  }
+  /* *********FOOTER********* */
+  .all-right {
+    max-width: 768px;
+  }
+}
 /* *******************DESK***************** */
 
 /* *****HEADER************* */
