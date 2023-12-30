@@ -271,6 +271,16 @@ img {
 .benefits-items {
   width: calc((100% - 72px) / 4);
 }
+
+.benefits.list-title {
+  width: 288px;
+  height: 40px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 36px;
+}
+
 .benefits-icons {
   display: flex;
   align-items: center;
@@ -286,6 +296,15 @@ img {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
+
+.section-title {
+  width: 262px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: baseline;
+}
+
 .our-team-styles {
   display: flex;
   gap: 24px;
@@ -325,8 +344,16 @@ img {
 .icon-colour {
   fill: #f4f4fd;
 }
-.position {
+
+.team.list-title {
+  height: 24px;
   text-align: center;
+}
+
+.team.list-text {
+  height: 24px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .list-our-team {
   background-color: #ffffff;
@@ -345,10 +372,24 @@ img {
   column-gap: 24px;
   row-gap: 48px;
 }
+
+/* added-height-420-px */
 .portfolio-item-styles {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
   width: calc((100% - 48px) / 3);
+  height: 420px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+/* *posible-delete-height*** */
+/* added-container-card-size** */
+.container-card {
+  width: 360px;
+  height: 300px;
+}
+/* possible-delete-card-size** */
+
 .portfolio-item-styles:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -375,17 +416,29 @@ img {
   position: relative;
   overflow: hidden;
 }
-.portfolio-item-styles {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-}
+
 .item-content {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-/* footer */
+
+/* added-parameters*** */
+.portfolio.list-title {
+  text-align: left;
+}
+.portfolio.list-text {
+  padding: 0 16px;
+}
+/* ********************* */
+
+/* **********footer*********** */
+
+.all-right {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+
 .footer-container {
   display: flex;
   align-items: baseline;
@@ -393,10 +446,7 @@ img {
 .container-logo {
   margin-right: 120px;
 }
-.all-right {
-  background-color: #2e2f42;
-  padding: 100px 0;
-}
+
 .all-right-logo {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
@@ -458,7 +508,9 @@ li {
 .icon-footer-link:hover {
   fill: #2e2f42;
 }
+
 /* footer-window */
+
 .footer-window {
   margin-left: 60px;
 }
@@ -541,6 +593,11 @@ li {
   margin-left: auto;
   margin-right: auto;
 }
+.header-styles {
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .menu-styles {
   display: none;
 }
@@ -572,61 +629,135 @@ li {
   margin-right: auto;
 }
 .benefits-styles {
-  /* flex-direction: column; */
   display: flex;
   flex-wrap: wrap;
-  column-width: 288px;
+
+  column-width: 320px;
   margin-left: auto;
   margin-right: auto;
 }
 .benefits-items {
   width: 288px;
   height: 120px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .benefits-icons {
   display: none;
 }
-.benefits.list-title {
-  width: 288px;
-  height: 40px;
-  text-align: center;
-}
 
 /* ***OUR-TEAM*********** */
-.section-title {
-  width: 162px;
-  height: 40px;
+.our-team {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0;
 }
+
 .our-team-styles {
   flex-direction: column;
   flex-wrap: wrap;
   display: flex;
   width: 320px;
-  height: 2232px;
+  height: 1800px;
   gap: 24px;
 }
-.team-memeber {
+.team-member {
   width: 264px;
-  height: 260px;
+  height: 396px;
   column-gap: 72px;
-}
-.list-title {
-  width: 134px;
-  height: 24px;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* *********OUR-PORTFOLIO*********** */
+/* *********OUR-PORTFOLIO****** */
+.our-portfolio {
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .portfolio-styles {
   flex-wrap: wrap;
   flex-direction: column;
+  height: 2740px;
+}
+.portfolio-item-styles {
+  width: 288px;
+  height: 400px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+.container-card {
+  width: 288px;
+  height: 280px;
+}
+.item-content {
+  padding-bottom: 0;
 }
 
 /* *******FOOTER********* */
-
-/* .footer-container {
+.all-right {
+  width: 320px;
+  height: 764px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  padding-bottom: 0;
+}
+.footer-container {
   display: block;
-} */
+}
+.container-logo {
+  margin: 0;
+}
+.mob-footer.logo {
+  width: 320px;
+  height: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 17.5px;
+  text-align: center;
+}
+.all-right-text {
+  width: 288px;
+  height: 112px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 72px;
+}
+.social-media {
+  text-align: center;
+}
+.social-media-list {
+  justify-content: center;
+  margin-bottom: 72px;
+}
+.footer-window {
+  width: 320px;
+  margin: 0;
+}
+
+.footer-window-item {
+  width: 320px;
+  text-align: center;
+}
+
+.footer-window-form {
+  flex-direction: column;
+}
+.footer-window-label {
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-window-button {
+  width: 165px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 104px;
+}
 
 /* ***************TABLET*************** */
 
