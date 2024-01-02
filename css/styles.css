@@ -799,19 +799,95 @@ li {
   .benefits-list {
     max-width: 768px;
   }
+  .benefits-items {
+    width: 356px;
+    height: 120px;
+  }
 
   /* ********OUR-TEAM******** */
+  /* section */
   .our-team {
-    max-width: 768px;
+    /* width: 786px; */
+    width: 768px;
+    height: 1224px;
   }
-  /* *****PORTFOLIO********** */
 
+  /* ul */
+  .our-team-styles {
+    width: 768px;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    /* column-gap: 64px; */
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  /* li */
+  .team-member {
+    width: 264px;
+    height: 396px;
+  }
+
+  /* *****PORTFOLIO********** */
+  /* section */
   .our-portfolio {
     max-width: 768px;
   }
+  /* ul */
+  .portfolio-styles {
+    width: 768px;
+    height: 1516px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  /* li */
+  .portfolio-item-styles {
+    width: 280px;
+    height: 400px;
+  }
   /* *********FOOTER********* */
   .all-right {
-    max-width: 768px;
+    width: 768px;
+    height: 456px;
+    padding: 77.5px 0 107px 98px;
+    margin: 0;
+  }
+  .container-logo {
+    width: 264px;
+  }
+  .mob-footer.logo {
+    text-align: left;
+  }
+  .social-media {
+    text-align: left;
+    margin-left: 24px;
+  }
+  .all-right-text {
+    margin: 0 36px 72px 0;
+  }
+  .social-media-list {
+    margin-left: 24px;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .footer-window {
+    /* display: flex; */
+    display: block;
+  }
+  .footer-window-item {
+    text-align: left;
+  }
+  .footer-window-form {
+    flex-direction: row;
   }
 }
 /* *******************DESK***************** */
