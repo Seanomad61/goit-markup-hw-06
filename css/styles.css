@@ -3,7 +3,9 @@ body {
   color: #434455;
   font-family: "Roboto", sans-serif;
 }
-
+/* main {
+  width: 1440px;
+} */
 a {
   text-decoration: none;
 }
@@ -853,7 +855,8 @@ li {
     width: 768px;
     height: 456px;
     padding: 77.5px 0 107px 98px;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
   .container-logo {
     width: 264px;
@@ -879,7 +882,6 @@ li {
     flex-wrap: wrap;
   }
   .footer-window {
-    /* display: flex; */
     display: block;
   }
   .footer-window-item {
@@ -893,7 +895,7 @@ li {
 
 /* *****HEADER************* */
 /* changed-max-w-with-min-w****** */
-/* @media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
     padding: 0;
@@ -924,121 +926,120 @@ li {
   }
   .address-contacts {
     font-size: 16px;
-  } */
+  }
+}
 /* ******HERO**************** */
 
-/* .hero {
-    max-width: 1440px;
-  } */
+.hero {
+  max-width: 1440px;
+}
 /* ******BENEFITS************ */
 
-/* .benefits-list {
-    max-width: 1440px;
-  }
-  .benefits-items {
-    width: 264px;
-    height: 224px;
-  }
-  .benefits-icons {
-    width: 264px;
-    display: flex;
-  }
-  .benefits.list-title {
-    text-align: left;
-  } */
+.benefits-list {
+  max-width: 1440px;
+}
+.benefits-items {
+  width: 264px;
+  height: 224px;
+}
+.benefits-icons {
+  width: 264px;
+  display: flex;
+}
+.benefits.list-title {
+  text-align: left;
+}
 
 /* *****OUR-TEAM******* */
-/* .our-team {
-    width: 1440px;
-    height: 780px;
-    justify-content: center;
-  }
+.our-team {
+  width: 1440px;
+  height: 780px;
+  justify-content: center;
+}
 
-  /* ul */
-/* .our-team-styles {
-    width: 1440px;
-    height: 780px;
-    display: flex;
-    flex-direction: row;
-
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: wrap;
-  }
-  /* li */
-/* .team-member {
-    width: 264px;
-    height: 396px;
-  }  */
+/* ul */
+.our-team-styles {
+  width: 1440px;
+  height: 780px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+/* li */
+.team-member {
+  width: 264px;
+  height: 396px;
+}
 
 /* *****PORTFOLIO********** */
 /* section */
-/* .our-portfolio {
-    max-width: 1440px;
-  } */
+.our-portfolio {
+  max-width: 1440px;
+}
 /* ul */
-/* .portfolio-styles {
-    width: 1128px;
-    height: 1000px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin: auto;
-  } */
+.portfolio-styles {
+  width: 1128px;
+  height: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: auto;
+}
 /* li */
-/* .portfolio-item-styles {
-    width: 360px;
-    height: 388px;
-  }
+.portfolio-item-styles {
+  width: 360px;
+  height: 388px;
+}
 
-  .container-card {
-    width: 380px;
-    height: 300px;
-  }
-} */
+.container-card {
+  width: 380px;
+  height: 300px;
+}
+
 /* *********FOOTER********* */
-/* .all-right {
-    width: 1440px;
-    height: 312px;
-    padding: 77.5px 0 107px 98px;
-    margin: 0;
-  }
-  .container-logo {
-    width: 264px;
-  }
-  .mob-footer.logo {
-    text-align: left;
-  }
-  .social-media {
-    text-align: left;
-    margin-left: 24px;
-  }
-  .all-right-text {
-    margin: 0 36px 72px 0;
-  }
-  .social-media-list {
-    margin-left: 24px;
-  }
-  .footer-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: wrap;
-  }
-  .footer-window {
-
-    display: block;
-  }
-  .footer-window-item {
-    text-align: left;
-  }
-  .footer-window-form {
-    flex-direction: row;
-  }
- */
+.all-right {
+  width: 1440px;
+  height: 312px;
+  padding: 77.5px 0 107px 98px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-logo {
+  width: 264px;
+}
+.mob-footer.logo {
+  text-align: left;
+}
+.social-media {
+  text-align: left;
+  margin-left: 24px;
+}
+.all-right-text {
+  margin: 0 36px 72px 0;
+}
+.social-media-list {
+  margin-left: 24px;
+}
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.footer-window {
+  display: block;
+}
+.footer-window-item {
+  text-align: left;
+}
+.footer-window-form {
+  flex-direction: row;
+}
 
 /* modal-window */
 
