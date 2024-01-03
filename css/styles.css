@@ -277,7 +277,7 @@ img {
 .benefits.list-title {
   width: 288px;
   height: 40px;
-  text-align: center;
+
   margin-left: auto;
   margin-right: auto;
   font-size: 36px;
@@ -596,7 +596,7 @@ li {
   margin-right: auto;
 }
 .header-styles {
-  max-width: 320px;
+  /* max-width: 320px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -625,7 +625,7 @@ li {
 
 /* ******BENEFITS********* */
 .benefits-list {
-  max-width: 320px;
+  /* max-width: 320px; */
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
@@ -634,15 +634,19 @@ li {
   display: flex;
   flex-wrap: wrap;
 
-  column-width: 320px;
+  /* column-width: 320px; */
   margin-left: auto;
   margin-right: auto;
 }
 .benefits-items {
-  width: 288px;
-  height: 120px;
+  /* width: 288px;
+  height: 120px; */
+  width: calc(100%);
   margin-left: auto;
   margin-right: auto;
+}
+.benefits.list-title {
+  text-align: center;
 }
 .benefits-icons {
   display: none;
@@ -650,7 +654,7 @@ li {
 
 /* ***OUR-TEAM*********** */
 .our-team {
-  width: 320px;
+  /* width: 320px; */
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 0;
@@ -660,13 +664,14 @@ li {
   flex-direction: column;
   flex-wrap: wrap;
   display: flex;
-  width: 320px;
-  height: 1800px;
+  /* width: 320px; */
+  /* height: 1800px; */
   gap: 24px;
 }
 .team-member {
-  width: 264px;
-  height: 396px;
+  /* width: 264px;
+  height: 396px; */
+  width: calc(100%);
   column-gap: 72px;
   margin-left: auto;
   margin-right: auto;
@@ -674,26 +679,28 @@ li {
 
 /* *********OUR-PORTFOLIO****** */
 .our-portfolio {
-  max-width: 320px;
+  /* max-width: 320px; */
   margin-left: auto;
   margin-right: auto;
 }
 .portfolio-styles {
   flex-wrap: wrap;
   flex-direction: column;
-  height: 2740px;
+  /* height: 2740px; */
 }
 .portfolio-item-styles {
-  width: 288px;
-  height: 400px;
+  /* width: 288px;
+  height: 400px; */
+  width: calc(100%);
   padding: 0;
   margin-left: auto;
   margin-right: auto;
   border: none;
 }
 .container-card {
-  width: 288px;
-  height: 280px;
+  /* width: 288px;
+  height: 280px; */
+  width: calc(100%);
 }
 .item-content {
   padding-bottom: 0;
@@ -701,8 +708,8 @@ li {
 
 /* *******FOOTER********* */
 .all-right {
-  width: 320px;
-  height: 764px;
+  /* width: 320px;
+  height: 764px; */
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -769,9 +776,9 @@ li {
   .container {
     max-width: 768px;
   }
-  .header-styles {
+  /* .header-styles {
     max-width: 768px;
-  }
+  } */
   .logo {
     margin-right: 97px;
   }
@@ -798,25 +805,35 @@ li {
     max-width: 768px;
   }
   /* ******BENEFITS******** */
-  .benefits-list {
+  /* .benefits-list {
     max-width: 768px;
+  } */
+  .benefits-styles {
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 15px 0 15px;
   }
   .benefits-items {
-    width: 356px;
-    height: 120px;
+    /* width: 356px; */
+    /* height: auto 72px; */
+    width: calc((100% - 24px) / 2);
+  }
+  .benefits.list-title {
+    text-align: left;
+    margin-left: 0;
   }
 
   /* ********OUR-TEAM******** */
   /* section */
-  .our-team {
+  /* .our-team {
     width: 768px;
     height: 1224px;
-  }
+  } */
 
   /* ul */
   .our-team-styles {
-    width: 768px;
-    height: 1000px;
+    /* width: 768px;
+    height: 1000px; */
     display: flex;
     flex-direction: row;
     /* column-gap: 64px; */
@@ -826,19 +843,20 @@ li {
   }
   /* li */
   .team-member {
-    width: 264px;
-    height: 396px;
+    /* width: 264px;
+    height: 396px; */
+    width: calc((100% - 24px) / 2);
   }
 
   /* *****PORTFOLIO********** */
   /* section */
-  .our-portfolio {
+  /* .our-portfolio {
     max-width: 768px;
-  }
+  } */
   /* ul */
   .portfolio-styles {
-    width: 768px;
-    height: 1516px;
+    /* width: 768px;
+    height: 1516px; */
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -847,13 +865,14 @@ li {
   }
   /* li */
   .portfolio-item-styles {
-    width: 280px;
-    height: 400px;
+    /* width: 280px;
+    height: 400px; */
+    width: calc(100%);
   }
   /* *********FOOTER********* */
   .all-right {
-    width: 768px;
-    height: 456px;
+    /* width: 768px;
+    height: 456px; */
     padding: 77.5px 0 107px 98px;
     margin-left: auto;
     margin-right: auto;
@@ -904,7 +923,7 @@ li {
   }
 
   .header-styles {
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin-left: auto;
     margin-right: auto;
   }
@@ -935,15 +954,17 @@ li {
   }
   /* ******BENEFITS************ */
 
-  .benefits-list {
+  /* .benefits-list {
     max-width: 1440px;
-  }
+  } */
   .benefits-items {
-    width: 264px;
-    height: 224px;
+    /* width: 264px;
+    height: 224px; */
+    width: calc(100%);
   }
   .benefits-icons {
-    width: 264px;
+    /* width: 264px; */
+    width: calc(100%);
     display: flex;
   }
   .benefits.list-title {
@@ -952,15 +973,15 @@ li {
 
   /* *****OUR-TEAM******* */
   .our-team {
-    width: 1440px;
-    height: 780px;
+    /* width: 1440px;
+    height: 780px; */
     justify-content: center;
   }
 
   /* ul */
   .our-team-styles {
-    width: 1440px;
-    height: 780px;
+    /* width: 1440px;
+    height: 780px; */
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -969,19 +990,20 @@ li {
   }
   /* li */
   .team-member {
-    width: 264px;
-    height: 396px;
+    /* width: 264px;
+    height: 396px; */
+    width: calc(100%);
   }
 
   /* *****PORTFOLIO********** */
   /* section */
-  .our-portfolio {
+  /* .our-portfolio {
     max-width: 1440px;
-  }
+  } */
   /* ul */
   .portfolio-styles {
-    width: 1128px;
-    height: 1000px;
+    /* width: 1128px;
+    height: 1000px; */
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -991,19 +1013,21 @@ li {
   }
   /* li */
   .portfolio-item-styles {
-    width: 360px;
-    height: 388px;
+    /* width: 360px;
+    height: 388px; */
+    width: calc(100%);
   }
 
   .container-card {
-    width: 380px;
-    height: 300px;
+    /* width: 380px;
+    height: 300px; */
+    width: calc(100%);
   }
 
   /* *********FOOTER********* */
   .all-right {
-    width: 1440px;
-    height: 312px;
+    /* width: 1440px;
+    height: 312px; */
     padding: 92px 0 92px 150px;
     margin-left: auto;
     margin-right: auto;
