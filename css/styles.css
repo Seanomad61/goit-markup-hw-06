@@ -1004,7 +1004,7 @@ li {
 .all-right {
   width: 1440px;
   height: 312px;
-  padding: 77.5px 0 107px 98px;
+  padding: 92px 0 92px 150px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1016,13 +1016,16 @@ li {
 }
 .social-media {
   text-align: left;
-  margin-left: 24px;
+  margin-left: 124px;
+}
+.social-media-container {
+  margin-right: 96px;
 }
 .all-right-text {
   margin: 0 36px 72px 0;
 }
 .social-media-list {
-  margin-left: 24px;
+  margin-left: 124px;
 }
 .footer-container {
   display: flex;
