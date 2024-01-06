@@ -205,6 +205,19 @@ img {
   background-size: cover;
   margin: 0 auto;
 }
+/* ******MEDIA-FOR-BG*******************************8 */
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-device-pixel-ratio: 2) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/retina-desk-dark-big/desk-people-office-1@2x.jpg");
+  }
+}
+/* *************************************************** */
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
