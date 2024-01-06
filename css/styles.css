@@ -216,14 +216,18 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("./images/retina-mob-hero/mob-people-office-1@2x.jpg");
+      url("../images/retina-mob-hero/mob-people-office-1@2x.jpg");
   }
 }
 
 /* *******FOR-TABLET************************************************************* */
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: url("./images/retina-tab-hero/tab-people-office-1.jpg");
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/retina-tab-hero/tab-people-office-1.jpg");
   }
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
@@ -234,13 +238,17 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("./images/retina-tab-hero/tab-people-office-1@2x.jpg");
+      url("../images/retina-tab-hero/tab-people-office-1@2x.jpg");
   }
 }
 /* ***********FOR-DESKTOP*********************************************************** */
 @media screen and (min-width: 1440px) {
   .hero {
-    background-image: url("./images/retina-desk-hero/desk-people-office-1.jpg");
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/retina-desk-hero/desk-people-office-1.jpg");
   }
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
@@ -251,7 +259,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("./images/retina-desk-hero/desk-people-office-1@2x.jpg");
+      url("../images/retina-desk-hero/desk-people-office-1@2x.jpg");
   }
 }
 
