@@ -140,14 +140,30 @@
 
           <ul class="our-team-styles">
             <li class="team-member">
-              <img
-                srcset="
-                  ../images/retina-desk-team/desk-Mark-Guerrero-Product-designer@2x.jpg 2x
-                "
-                src="../images/retina-mob-team/mob-Mark-Guerrero-Product-designer.jpg"
-                alt="photo Mark Guerrero"
-                width="100%"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ../images/retina-desk-team/desk-Mark-Guerrero-Product-designer.jpg    1x,
+                    ../images/retina-desk-team/desk-Mark-Guerrero-Product-designer@2x.jpg 2x
+                  "
+                  media="(min-width: 1440px)"
+                />
+                <source
+                  scrset="../images/retina-tab-team/tab-Mark-Guerrero-Product-designer.jpg 1x,
+                ../images/retina-tab-team/tab-Mark-Guerrero-Product-designer@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  scrset="../images/retina-mob-team/mab-Mark-Guerreo-Product-designer.jpg 1x,
+                ../images/retina-mob-team/mob-Mark-Guerrero-Product-designer@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="../images/retina-mob-team/mob-Mark-Guerrero-Product-designer.jpg"
+                  alt="photo Mark Guerrero"
+                  width="100%"
+                />
+              </picture>
               <div class="team-member-name">
                 <h3 class="team list-title">Mark Guerrero</h3>
                 <p class="team list-text">Product Designer</p>
