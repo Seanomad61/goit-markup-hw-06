@@ -149,13 +149,15 @@
                   media="(min-width: 1440px)"
                 />
                 <source
-                  scrset="../images/retina-tab-team/tab-Mark-Guerrero-Product-designer.jpg 1x,
-                ../images/retina-tab-team/tab-Mark-Guerrero-Product-designer@2x.jpg 2x"
+                  scrset="
+                  ../images/retina-tab-team/tab-Mark-Guerrero-Product-designer.jpg 1x, 
+                  ../images/retina-tab-team/tab-Mark-Guerrero-Product-designer@2x.jpg 2x"
                   media="(min-width: 768px)"
                 />
                 <source
-                  scrset="../images/retina-mob-team/mab-Mark-Guerreo-Product-designer.jpg 1x,
-                ../images/retina-mob-team/mob-Mark-Guerrero-Product-designer@2x.jpg 2x"
+                  scrset="
+                  ../images/retina-mob-team/mab-Mark-Guerreo-Product-designer.jpg 1x, 
+                  ../images/retina-mob-team/mob-Mark-Guerrero-Product-designer@2x.jpg 2x"
                   media="(max-width: 767px)"
                 />
                 <img
@@ -208,14 +210,35 @@
               </div>
             </li>
             <li class="team-member">
-              <img
-                srcset="
-                  ../images/retina-desk-team/desk-Tom-Ford-Front-end-developer@2x.jpg 2x
-                "
-                src="../images/retina-mob-team/mob-Tom-Ford-Front-end-developer.jpg"
-                alt="photo Tom Ford"
-                width="100%"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ../images/retina-desk-team/desk-Tom-Ford-Front-end-developer.jpg    1x,
+                    ../images/retina-desk-team/desk-Tom-Ford-Front-end-developer@2x.jpg 2x
+                  "
+                  media="(min-width: 1440px)"
+                />
+                <source
+                  srcset="
+                    ../images/retina-tab-team/tab-Tom-Ford-Front-end-developer.jpg    1x,
+                    ../images/retina-tab-team/tab-Tom-Ford-Front-end-developer@2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ../images/retina-mob-team/mob-Tom-Ford-Front-end-developer.jpg    1x,
+                    ../images/retina-mob-team/mob-Tom-Ford-Front-end-developer@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="../images/retina-mob-team/mob-Tom-Ford-Front-end-developer.jpg"
+                  alt="photo Tom Ford"
+                  width="100%"
+                />
+              </picture>
+
               <div class="team-member-name">
                 <h3 class="team list-title">Tom Ford</h3>
                 <p class="team list-text">Frontend Developer</p>
@@ -260,14 +283,35 @@
               </div>
             </li>
             <li class="team-member">
-              <img
-                srcset="
-                  ../images/retina-desk-team/desk-Camilla-Garcia-Marketing@2x.jpg 2x
-                "
-                src="../images/retina-mob-team/mob-Camilla-Garcia-Marketing.jpg"
-                alt="photo Camilla Garcia"
-                width="100%"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ../images/retina-desk-team/desk-Camilla-Garcia-Marketing.jpg    1x,
+                    ../images/retina-desk-team/desk-Camilla-Garcia-Marketing@2x.jpg 2x
+                  "
+                  media="(min-width: 1440px)"
+                />
+                <source
+                  srcset="
+                    ../images/retina-tab-team/tab-Camilla-Garcia-Marketing.jpg    1x,
+                    ../images/retina-tab-team/tab-Camilla-Garcia-Marketing@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ../images/retina-mob-team/mob-Camilla-Garcia-Marketing.jpg    1x,
+                    ../images/retina-mob-team/mob-Camilla-Garcia-Marketing@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="../images/retina-mob-team/mob-Camilla-Garcia-Marketing.jpg"
+                  alt="photo Camilla Garcia"
+                  width="100%"
+                />
+              </picture>
+
               <div class="team-member-name">
                 <h3 class="team list-title">Camilla Garcia</h3>
                 <p class="team list-text">Marketing</p>
@@ -312,14 +356,35 @@
               </div>
             </li>
             <li class="team-member">
-              <img
-                srcset="
-                  ../images/retina-desk-team/desk-Daniel-Wilson-UI-Designer@2x.jpg 2x
-                "
-                src="../images/retina-mob-team/mob-Daniel-Wilson-UI-Designer.jpg"
-                alt="photo Daniel Wilson"
-                width="100%"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ../images/retina-desk-team/desk-Daniel-Wilson-UI-Designer.jpg    1x,
+                    ../images/retina-desk-team/desk-Daniel-Wilson-UI-Designer@2x.jpg 2x
+                  "
+                  media="(min-width: 1440px)"
+                />
+                <source
+                  srcset="
+                    ../images/retina-tab-team/tab-Daniel-Wilson-UI-Designer.jpg    1x,
+                    ../images/retina-tab-team/tab-Daniel-Wilson-UI-Designer@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ../images/retina-mob-team/mob-Daniel-Wilson-UI-Designer.jpg    1x,
+                    ../images/retina-mob-team/mob-Daniel-Wilson-UI-Designer@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="../images/retina-mob-team/mob-Daniel-Wilson-UI-Designer.jpg"
+                  alt="photo Daniel Wilson"
+                  width="100%"
+                />
+              </picture>
+
               <div class="team-member-name">
                 <h3 class="team list-title">Daniel Wilson</h3>
                 <p class="team list-text">UI Designer</p>
@@ -377,6 +442,26 @@
 
             <li class="portfolio-item-styles">
               <div class="container-card">
+                <picture>
+                  <source
+                    scrset="
+                  ../images/retina-desk-project/desk-bank-app.jpg 1x, 
+                  ../images/retina-desk-project/desk-bank-app@2x.jpg 2x"
+                    media="(min-width: 1440px)"
+                  />
+                  <source
+                    scrset="
+                  ../images/retina-tab-project/tab-bank-app.jpg 1x, 
+                  ../images/retina-tab-project/tab-bank-app@2x.jpg 2x"
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    scrset="
+                  ../images/retina-mob-project/mob-bank-app.jpg 1x, 
+                  ../images/retina-mob-project/mob-bank-app@2x.jpg 2x"
+                    media="(max-width: 767px)"
+                  />
+                </picture>
                 <img
                   scrset="../images/retina-desk-project/desk-bank-app@2x.jpg 2x"
                   src="../images/retina-mob-project/mob-bank-app.jpg"
@@ -400,6 +485,26 @@
 
             <li class="portfolio-item-styles">
               <div class="container-card">
+                <picture>
+                  <source
+                    scrset="
+                  ../images/retina-desk-project/desk-scangr.jpg 1x, 
+                  ../images/retina-desk-project/desk-scangr@2x.jpg 2x"
+                    media="(min-width: 1440px)"
+                  />
+                  <source
+                    scrset="
+                  ../images/retina-tab-project/tab-scangr.jpg 1x, 
+                  ../images/retina-tab-project/tab-scangr@2x.jpg 2x"
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    scrset="
+                  ../images/retina-mob-project/mob-scangr.jpg 1x, 
+                  ../images/retina-mob-project/mob-scangr@2x.jpg 2x"
+                    media="(max-width: 767px)"
+                  />
+                </picture>
                 <img
                   scrset="../images/retina-desk-project/desk-scangr@2x.jpg 2x"
                   src="../images/retina-mob-project/mob-scangr.jpg"
@@ -422,6 +527,26 @@
 
             <li class="portfolio-item-styles">
               <div class="container-card">
+                <picture>
+                  <source
+                    scrset="
+                  ../images/retina-desk-project/desk-syncronization.jpg 1x, 
+                  ../images/retina-desk-project/desk-syncronization@2x.jpg 2x"
+                    media="(min-width: 1440px)"
+                  />
+                  <source
+                    scrset="
+                  ../images/retina-tab-project/tab-syncronization.jpg 1x, 
+                  ../images/retina-tab-project/tab-syncronization@2x.jpg 2x"
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    scrset="
+                  ../images/retina-mob-project/mob-syncronization.jpg 1x, 
+                  ../images/retina-mob-project/mob-syncronization@2x.jpg 2x"
+                    media="(max-width: 767px)"
+                  />
+                </picture>
                 <img
                   scrset="../images/retina-desk-project/desk-syncronization@2x.jpg 2x"
                   src="../images/retina-mob-project/mob-synchronization.jpg"
@@ -444,6 +569,26 @@
 
             <li class="portfolio-item-styles">
               <div class="container-card">
+                <picture>
+                  <source
+                    scrset="
+                  ../images/retina-desk-project/desk-vehicle-interior.jpg 1x, 
+                  ../images/retina-desk-project/desk-vehicle-interior@2x.jpg 2x"
+                    media="(min-width: 1440px)"
+                  />
+                  <source
+                    scrset="
+                  ../images/retina-tab-project/tab-vehicle-interior.jpg 1x, 
+                  ../images/retina-tab-project/tab-vehicle-interior@2x.jpg 2x"
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    scrset="
+                  ../images/retina-mob-project/mob-vehicle-interior.jpg 1x, 
+                  ../images/retina-mob-project/mob-vehicle-interior@2x.jpg 2x"
+                    media="(max-width: 767px)"
+                  />
+                </picture>
                 <img
                   scrset="../images/retina-desk-project/desk-vehicle-interior@2x.jpg 2x"
                   src="../images/retina-mob-project/mob-vehicle-interior.jpg"
@@ -466,6 +611,26 @@
 
             <li class="portfolio-item-styles">
               <div class="container-card">
+                <picture>
+                  <source
+                    scrset="
+                  ../images/retina-desk-project/desk-mobile-theme.jpg 1x, 
+                  ../images/retina-desk-project/desk-mobile-theme@2x.jpg 2x"
+                    media="(min-width: 1440px)"
+                  />
+                  <source
+                    scrset="
+                  ../images/retina-tab-project/tab-mobile-theme.jpg 1x, 
+                  ../images/retina-tab-project/tab-mobile-theme@2x.jpg 2x"
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    scrset="
+                  ../images/retina-mob-project/mob-mobile-theme.jpg 1x, 
+                  ../images/retina-mob-project/mob-mobile-theme@2x.jpg 2x"
+                    media="(max-width: 767px)"
+                  />
+                </picture>
                 <img
                   scrset="../images/retina-desk-project/desk-mobile-theme@2x.jpg 2x"
                   src="../images/retina-mob-project/mob-mobile-theme.jpg"
@@ -488,6 +653,26 @@
 
             <li class="portfolio-item-styles">
               <div class="container-card">
+                <picture>
+                  <source
+                    scrset="
+                  ../images/retina-desk-project/desk-happy-girl.jpg 1x, 
+                  ../images/retina-desk-project/desk-happy-girl@2x.jpg 2x"
+                    media="(min-width: 1440px)"
+                  />
+                  <source
+                    scrset="
+                  ../images/retina-tab-project/tab-happy-girl.jpg 1x, 
+                  ../images/retina-tab-project/tab-happy-girl@2x.jpg 2x"
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    scrset="
+                  ../images/retina-mob-project/mob-happy-girl.jpg 1x, 
+                  ../images/retina-mob-project/mob-happy-girl@2x.jpg 2x"
+                    media="(max-width: 767px)"
+                  />
+                </picture>
                 <img
                   scrset="../images/retina-desk-project/desk-happy-girl@2x.jpg 2x"
                   src="../images/retina-mob-project/mob-happy-girl.jpg"
